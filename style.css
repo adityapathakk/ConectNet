@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+li{
+    list-style-type:none;
+    display:inline;
+    width: 100%;
+}
+
+a.nav-link{
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    color: #000;
+    transition: all .3s;
+    margin-right: 1vw;
+    font-size: 1.68vw;
+    position: relative;
+    font-weight: 400
+}
+a.nav-link.profile{
+    color: white;
+    margin-left: 30vw;
+    padding: 0.5vw;
+    border-radius: 25vw;
+    background-color: black;
+}
+.navbar {
+    height: 5vw;
+    -webkit-box-shadow: 0 8px 6px -6px;
+    -moz-box-shadow: 0 8px 6px -6px ;
+    box-shadow: 0 8px 6px -6px rgba(0,0,0,0.29);
+
+}
+.forum-img1{
+    display: block;
+    padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.pfp{
+    display: block;
+    border-radius: 300vw;
+    padding-left: 10px;
+}
+.profilepara{
+    font-family: 'Poppins';
+    padding-left: 10px;
+    padding-top: 20px;
+}
+body{
+    background-color: #ffffff
+}
+span.announce{
+    font-family: 'Poppins';
+    display: inline;
+    background-color:#ffffe6 ;
+  margin: 50px;
+}
+.paragraph{
+    font-family: 'Poppins';
+    padding: 20px;
+}
+
+form input{
+    margin: 20px ;
+    margin-left: 20vw ;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 28px;
+    border: 4px solid black;
+}
+.submit{
+    margin-left: 45vw ;
+
+}
+
+form input:focus{
+    border: solid 2px;
+}
+
+form input:valid{
+    border: 2px greenyellow;
+}
+
+form input:invalid{
+    border: 2px red;
+}
